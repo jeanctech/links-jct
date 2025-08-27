@@ -1,5 +1,4 @@
 :root {
-
   font-family: "Mozilla Headline", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -36,11 +35,11 @@ h1 {
   color: #eb6f92;
 }
 
-h2{
+h2 {
   color: #f6c177;
 }
 
-div{
+div {
   margin: 1rem;
   padding: 1rem;
   background-color: #21202e;
@@ -49,13 +48,13 @@ div{
   border-radius: 0.5rem;
 }
 
-strong{
+strong {
   margin: 1rem;
   padding: 1rem;
   color: #9ccfd8;
 }
 
-code{
+code {
   margin: 0rem;
   padding: 0rem;
   color: #ebbcba;
@@ -64,23 +63,50 @@ code{
   font-style: normal;
 }
 
-button{
+button {
   margin: 0.4rem;
   padding: 0.4rem;
   color: #dfdad9;
-  background-color: #44415a;
+  background-color: #393552;
   border: #21202e solid 0.2rem;
   border-radius: 0.5rem;
-    font-family: "Mozilla Headline", sans-serif;
+  font-family: "Mozilla Headline", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
- a{
+button:hover {
+  background-color: #394872;
+  cursor: pointer;
+}
+
+a {
   text-decoration: none;
   color: #dfdad9;
 }
 
-a:hover{
- color: #eb6f92;
+a:hover {
+  color: #eb6f92;
+}
+
+.div-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #393552;
+  margin: 2rem 0;
+}
+
+fieldset {
+  border: #393552 solid 0.1rem;
+  border-radius: 0.5rem;
+  border-top: 0rem;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  background-color: #21202e;
 }
