@@ -107,6 +107,17 @@ fieldset {
   border-radius: 0.5rem;
   border-top: 0rem;
   margin: 0.4rem;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  padding: 0.4rem;
+  background-color: #21202e;
+}
+
+.info {
+  border: #393552 solid 0.1rem;
+  border-radius: 0.5rem;
+  border-top: 0rem;
+  margin: 0.4rem;
   padding: 0.4rem;
   background-color: #21202e;
 }
