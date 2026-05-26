@@ -1,67 +1,62 @@
-# > assembler-guide.sh 🚀
+# 🚀 links-jct.web
 
-> Learn ASSEMBLER as if you were in the terminal.
-> No frameworks, no black magic — just pure code.
-> `echo "Let's go nerd mode 🧠"`
+> A high-performance, framework-less web directory and resource index.  
+> Built with pure code, zero black magic, and maximum efficiency.
 
-## 📁 ./content
+```markdown
+<div align="center">
+  <code style="color: #00ffcc; font-size: 1.1em;">console.log("Let's go nerd mode 🧠");</code>
+</div>
+```
 
-* [Day 01 -](/)
-* [Day 02 -](/)
-* [Day 03 -](/)
-* [Day 04 -](/)
-* [Day 05 -](/)
-* [Day 06 -](/)
-* [Day 07 -](/)
-* [Day 08 -](/)
-* [Day 09 -](/)
-* [Day 10 -](/)
-* [Day 11 -](/)
-* [Day 12 -](/)
-* [Day 13 -](/)
-* [Day 14 -](/)
-* [Day 15 -](/)
-* [Day 16 -](/)
-* [Day 17 -](/)
-* [Day 18 -](/)
-* [Day 19 -](/)
-* [Day 20 -](/)
-* [Day 21 -](/)
-* [Day 22 -](/)
-* [Day 23 -](/)
-* [Day 24 -](/)
-* [Day 25 -](/)
-* [Day 26 -](/)
-* [Day 27 -](/)
-* [Day 28 -](/)
-* [Day 29 -](/)
-* [Day 30 -](/)
+## ⚡ Tech Stack & Environment
 
-## 🔗 ./resources
+An agile, lightweight ecosystem selected for raw development speed and modern web performance:
 
-* [ASSEMBLER Official](/)
-* [Manual in Spanish](/)
-* [30 days of ASSEMBLER](/)
-* [Game to learn ASSEMBLER](/)
-* [Visual Studio Code](/)
-* [Tool-1](/)
-* [Tool-2](/)
-* [Tool-3](/)
+| Core Technologies | Environment & Tooling |
+| :--- | :--- |
+| ⚡ **[Svelte](/)** — Cyberpunk reactivity | 💻 **[Visual Studio Code](/)** — Core Editor |
+| 📦 **[Vite](/)** — Next-gen frontend tooling | 📟 **[Terminal Microsoft](/)** — CLI Power |
+| 🍞 **[Bun](/)** — Ultra-fast JS runtime | 🛸 **[jeanctech](/)** — Architect |
 
-## 🧠 ./notes
+## 🗺️ Navigation Index
 
-This repository is like my learning journal.
+### 📁 ./content
 
-I'm not an expert. It's not an official course. I just documented what I learned.
+* **[Home UI](/)** — Main interface router.
 
-I might add more in the future if I get even more advanced with ASSEMBLER.
+### 🧠 ./notes (Engineering Logs)
 
-## 🌟 ./support
+This repository operates as a live production ledger. Every document, index, and tool is the direct result of practical experimentation, documentation of web standards, and continuous iterations on the `links-jct` architecture.  
 
-If it was helpful or you liked it, please leave a star.
-That motivates me more than a cup of coffee ☕✨
+* **Production-Ready:** Built by building, breaking, and optimizing.
+* **Scalable Core:** Designed to evolve as new `links-jct` modules and advanced functionalities are deployed.
 
-## 🛸 ./author
+## 🛠️ System Architecture
 
-**Author:** `jeanctech`,
-**Style:** `terminal vibes`, functional documentation, no fear of code.
+```json
+{
+  "project": "links-jct",
+  "developer": "jeanctech",
+  "vibe": "pure-web-vibes",
+  "features": [
+    "functional-first",
+    "vanilla-standards",
+    "zero-framework-overhead"
+  ],
+  "fear_of_code": false
+}
+
+```
+
+## 🌟 Support & Telemetry
+
+If this architecture streamlined your workflow or inspired your next project, consider dropping a star to keep the server running.
+
+```bash
++---------------------------+
+| ⭐ Star Repository       |
++---------------------------+
+  [ Running on 100% Coffee ]
+
+```
