@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "links-of-jct",
+      "name": "links-jct",
       "devDependencies": {
         "@sveltejs/vite-plugin-svelte": "^6.0.0",
         "svelte": "^5.37.3",
