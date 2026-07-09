@@ -4,169 +4,185 @@
 </script>
 
 <main>
-  <header>
-    <h1>⚡ Links-Jct</h1>
-  </header>
-  <fieldset class="info">
-    <p>
-      <strong
-        >Mis links y entradas y proyectos que he creado y pues este es mi index</strong
-      >
-    </p>
-    <p>
-      <strong
-        >Pues obviamente los links y demas info abajo jajaja igual pues si es
-        util eso creo xd</strong
-      >
-    </p>
-  </fieldset>
-  <section>
-    <h2>💻 Mi Links</h2>
-    <div>
-      <p><strong>👨‍💻 Portfolio</strong></p>
-      <p><cite>✨ A simple portfolio site crafted with care and code.</cite></p>
-      <code>👉 Con astro.js y vite.js y tailwind.css</code>
-      <br />
-      <br />
-      <section class="div-links">
-        <button
-          ><a href={link_one} target="_blank" rel="noopener noreferrer"
-            >Ver Web 🌐</a
-          ></button
-        >
-        <button
-          ><a href={link_two} target="_blank" rel="noopener noreferrer"
-            >Ver Codigo 👀</a
-          ></button
-        >
-      </section>
-    </div>
-    <div>
-      <p><strong>👨‍💻 Portfolio</strong></p>
-      <p><cite>✨ A simple portfolio site crafted with care and code.</cite></p>
-      <code>👉 Con astro.js y vite.js y tailwind.css</code>
-      <br />
-      <br />
-      <section class="div-links">
-        <button
-          ><a href={link_one} target="_blank" rel="noopener noreferrer"
-            >Ver Web 🌐</a
-          ></button
-        >
-        <button
-          ><a href={link_two} target="_blank" rel="noopener noreferrer"
-            >Ver Codigo 👀</a
-          ></button
-        >
-      </section>
-    </div>
-    <div>
-      <p><strong>👨‍💻 Portfolio</strong></p>
-      <p><cite>✨ A simple portfolio site crafted with care and code.</cite></p>
-      <code>👉 Con astro.js y vite.js y tailwind.css</code>
-      <br />
-      <br />
-      <section class="div-links">
-        <button
-          ><a href={link_one} target="_blank" rel="noopener noreferrer"
-            >Ver Web 🌐</a
-          ></button
-        >
-        <button
-          ><a href={link_two} target="_blank" rel="noopener noreferrer"
-            >Ver Codigo 👀</a
-          ></button
-        >
-      </section>
-    </div>
-    <div>
-      <p><strong>👨‍💻 Portfolio</strong></p>
-      <p><cite>✨ A simple portfolio site crafted with care and code.</cite></p>
-      <code>👉 Con astro.js y vite.js y tailwind.css</code>
-      <br />
-      <br />
-      <section class="div-links">
-        <button
-          ><a href={link_one} target="_blank" rel="noopener noreferrer"
-            >Ver Web 🌐</a
-          ></button
-        >
-        <button
-          ><a href={link_two} target="_blank" rel="noopener noreferrer"
-            >Ver Codigo 👀</a
-          ></button
-        >
-      </section>
-    </div>
-    <div>
-      <p><strong>👨‍💻 Portfolio</strong></p>
-      <p><cite>✨ A simple portfolio site crafted with care and code.</cite></p>
-      <code>👉 Con astro.js y vite.js y tailwind.css</code>
-      <br />
-      <br />
-      <section class="div-links">
-        <button
-          ><a href={link_one} target="_blank" rel="noopener noreferrer"
-            >Ver Web 🌐</a
-          ></button
-        >
-        <button
-          ><a href={link_two} target="_blank" rel="noopener noreferrer"
-            >Ver Codigo 👀</a
-          ></button
-        >
-      </section>
-    </div>
-    <div>
-      <p><strong>👨‍💻 Portfolio</strong></p>
-      <p><cite>✨ A simple portfolio site crafted with care and code.</cite></p>
-      <code>👉 Con astro.js y vite.js y tailwind.css</code>
-      <br />
-      <br />
-      <section class="div-links">
-        <button
-          ><a href={link_one} target="_blank" rel="noopener noreferrer"
-            >Ver Web 🌐</a
-          ></button
-        >
-        <button
-          ><a href={link_two} target="_blank" rel="noopener noreferrer"
-            >Ver Codigo 👀</a
-          ></button
-        >
-      </section>
-    </div>
-    <div>
-      <p><strong>👨‍💻 Portfolio</strong></p>
-      <p><cite>✨ A simple portfolio site crafted with care and code.</cite></p>
-      <code>👉 Con astro.js y vite.js y tailwind.css</code>
-      <br />
-      <br />
-      <section class="div-links">
-        <button
-          ><a href={link_one} target="_blank" rel="noopener noreferrer"
-            >Ver Web 🌐</a
-          ></button
-        >
-        <button
-          ><a href={link_two} target="_blank" rel="noopener noreferrer"
-            >Ver Codigo 👀</a
-          ></button
-        >
-      </section>
-    </div>
-  </section>
-  <footer>
-    <fieldset>
-      <p>
-        <strong
-          >Creado con Svelte + Vite + Bun + Rose Pine Theme (Colors) + Netlify
-          (Hosting)
-        </strong>
+  <div id="app">
+    <header>
+      <h1>⚡ Links·Jct</h1>
+    </header>
+
+    <div class="info">
+      <p><strong>✦ Mis proyectos, entradas y experimentos</strong></p>
+      <p class="text-muted">
+        Una galería visual con los trabajos que he creado. <br
+          class="hide-on-mobile"
+        /> Cada tarjeta contiene el enlace a la web y al repositorio.
       </p>
-      <p><code>Creado por @jeanctech - @2025</code></p>
-    </fieldset>
-  </footer>
+    </div>
+
+    <h2 class="gallery-title">💻 Proyectos</h2>
+    <div class="gallery-grid">
+
+      <article class="project-card">
+        <h3>👨‍💻 Portfolio <span>v2</span></h3>
+        <span class="tech">✦ Astro · Tailwind · Vite</span>
+        <p class="desc">
+          <cite
+            >✨ Un portfolio limpio, con enfoque en rendimiento y diseño.</cite
+          >
+        </p>
+        <div class="btn-group">
+          <button
+            ><a
+              href={link_one}
+              target="_blank"
+              rel="noopener noreferrer">🌐 Ver Web</a
+            ></button
+          >
+          <button
+            ><a
+              href={link_two}
+              target="_blank"
+              rel="noopener noreferrer">👀 Código</a
+            ></button
+          >
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>🎨 UI Lab <span>experimental</span></h3>
+        <span class="tech">✦ Svelte · CSS · Bun</span>
+        <p class="desc">
+          <cite>Componentes interactivos y micro-interacciones con Svelte.</cite
+          >
+        </p>
+        <div class="btn-group">
+          <button
+            ><a
+              href="https://jeanctech.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer">🌐 Ver Web</a
+            ></button
+          >
+          <button
+            ><a
+              href="https://github.com/jeanctech/portfolio"
+              target="_blank"
+              rel="noopener noreferrer">👀 Código</a
+            ></button
+          >
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>📝 Blog·dev <span>personal</span></h3>
+        <span class="tech">✦ Astro · MDX · Netlify</span>
+        <p class="desc">
+          <cite>Artículos sobre desarrollo, diseño y herramientas.</cite>
+        </p>
+        <div class="btn-group">
+          <button
+            ><a
+              href="https://jeanctech.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer">🌐 Ver Web</a
+            ></button
+          >
+          <button
+            ><a
+              href="https://github.com/jeanctech/portfolio"
+              target="_blank"
+              rel="noopener noreferrer">👀 Código</a
+            ></button
+          >
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>🧩 Components <span>library</span></h3>
+        <span class="tech">✦ Svelte · Storybook · Vite</span>
+        <p class="desc">
+          <cite>Colección de componentes reutilizables y documentados.</cite>
+        </p>
+        <div class="btn-group">
+          <button
+            ><a
+              href="https://jeanctech.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer">🌐 Ver Web</a
+            ></button
+          >
+          <button
+            ><a
+              href="https://github.com/jeanctech/portfolio"
+              target="_blank"
+              rel="noopener noreferrer">👀 Código</a
+            ></button
+          >
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>⚡ Dash·kit <span>analytics</span></h3>
+        <span class="tech">✦ Vue · Chart.js · Tailwind</span>
+        <p class="desc">
+          <cite
+            >Dashboard ligero para visualización de datos en tiempo real.</cite
+          >
+        </p>
+        <div class="btn-group">
+          <button
+            ><a
+              href="https://jeanctech.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer">🌐 Ver Web</a
+            ></button
+          >
+          <button
+            ><a
+              href="https://github.com/jeanctech/portfolio"
+              target="_blank"
+              rel="noopener noreferrer">👀 Código</a
+            ></button
+          >
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>🖌️ Palette·pro <span>design</span></h3>
+        <span class="tech">✦ React · Framer · CSS vars</span>
+        <p class="desc">
+          <cite>Generador de paletas y temas con vista previa en vivo.</cite>
+        </p>
+        <div class="btn-group">
+          <button
+            ><a
+              href="https://jeanctech.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer">🌐 Ver Web</a
+            ></button
+          >
+          <button
+            ><a
+              href="https://github.com/jeanctech/portfolio"
+              target="_blank"
+              rel="noopener noreferrer">👀 Código</a
+            ></button
+          >
+        </div>
+      </article>
+    </div>
+
+    <footer>
+      <fieldset>
+        <p>
+          <strong
+            >✦ Creado con Svelte + Vite + Bun · Rose Pine Theme · Netlify</strong
+          >
+        </p>
+        <br>
+        <p><code>Creado por @jeanctech · 2025</code></p>
+      </fieldset>
+    </footer>
+  </div>
 </main>
 
 <style>
