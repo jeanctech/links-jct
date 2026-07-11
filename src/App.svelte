@@ -57,14 +57,14 @@
         <div class="btn-group">
           <button
             ><a
-              href="https://jeanctech.netlify.app/"
+              href={link_one}
               target="_blank"
               rel="noopener noreferrer">🌐 Ver Web</a
             ></button
           >
           <button
             ><a
-              href="https://github.com/jeanctech/portfolio"
+              href={link_two}
               target="_blank"
               rel="noopener noreferrer">👀 Código</a
             ></button
@@ -81,14 +81,14 @@
         <div class="btn-group">
           <button
             ><a
-              href="https://jeanctech.netlify.app/"
+              href={link_one}
               target="_blank"
               rel="noopener noreferrer">🌐 Ver Web</a
             ></button
           >
           <button
             ><a
-              href="https://github.com/jeanctech/portfolio"
+              href={link_two}
               target="_blank"
               rel="noopener noreferrer">👀 Código</a
             ></button
@@ -105,14 +105,14 @@
         <div class="btn-group">
           <button
             ><a
-              href="https://jeanctech.netlify.app/"
+              href={link_one}
               target="_blank"
               rel="noopener noreferrer">🌐 Ver Web</a
             ></button
           >
           <button
             ><a
-              href="https://github.com/jeanctech/portfolio"
+              href={link_two}
               target="_blank"
               rel="noopener noreferrer">👀 Código</a
             ></button
@@ -131,14 +131,14 @@
         <div class="btn-group">
           <button
             ><a
-              href="https://jeanctech.netlify.app/"
+              href={link_one}
               target="_blank"
               rel="noopener noreferrer">🌐 Ver Web</a
             ></button
           >
           <button
             ><a
-              href="https://github.com/jeanctech/portfolio"
+              href={link_two}
               target="_blank"
               rel="noopener noreferrer">👀 Código</a
             ></button
@@ -155,14 +155,14 @@
         <div class="btn-group">
           <button
             ><a
-              href="https://jeanctech.netlify.app/"
+              href={link_one}
               target="_blank"
               rel="noopener noreferrer">🌐 Ver Web</a
             ></button
           >
           <button
             ><a
-              href="https://github.com/jeanctech/portfolio"
+              href={link_two}
               target="_blank"
               rel="noopener noreferrer">👀 Código</a
             ></button
